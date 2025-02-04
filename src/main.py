@@ -1,2 +1,7 @@
+from textnode import TextNode,TextType
+
 def main():
-    print("hello world")
+    textnode = TextNode("Google",TextType.BOLD_TEXT,"http://google.com")
+    print(textnode.__repr__())
+
+main()
